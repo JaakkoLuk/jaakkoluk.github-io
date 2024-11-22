@@ -1,11 +1,115 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="fi">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+            margin: 0;
+        }
+	
+	h6 {
+	    font-size: 1.2rem;
+	}
+
+        h1, h2 {
+            background-color: #d6d6d6;
+            color: #333;
+            padding: 15px 10px;
+            font-size: 2rem;
+        }
+
+        .content-box {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 20px;
+            width: 60%;
+            max-width: 600px;
+            margin: 30px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .content-box h3, .content-box h4, .content-box h5 {
+            margin: 20px 0 10px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .content-box form {
+            margin: 15px 0;
+        }
+
+        .content-box form input[type="submit"] {
+            font-size: 1rem;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .content-box form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .date-container {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            color: #999;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>Hello, World!</h1>
-</body>
 
+    <h1>Tietoliikenneprojekti</h1>
+    <h2>Ryhmä 4</h2>
+
+    <div class="content-box">
+        <h3>GitHub</h3>
+        <form action="https://github.com/doctorserious">
+            <input type="submit" value="GitHub">
+        </form>
+
+        <h4>Projekteja</h4>
+        <form action="https://github.com/doctorserious">
+            <input type="submit" value="Github">
+        </form>
+
+        <h5>Kissakuvia?</h5>
+        <form action="https://cataas.com/cat">
+            <input type="submit" value="Kissakuvia!">
+        </form>
+    </div>
+
+    <h6>Server Time</h6>
+    <div class="date-container">
+        Friday<br>Friday 22nd of November 2024 09:00:51 AM<br>Fri, 22 Nov 2024 09:00:51 +0000    </div>
+
+    <footer>
+        &copy; 2024 Jaakko Lukkari
+    </footer>
+    
+</body>
 </html>
